@@ -1,0 +1,9 @@
+POST http://localhost:8081/api/v1/product/make-order/v1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "stock": 3,
+  "updatedBy": "user 2",
+  "delay":5000
+}
